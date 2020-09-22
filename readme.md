@@ -12,3 +12,6 @@
 
 [webpack-sass](https://www.webpackjs.com/loaders/sass-loader/)
 
+- 使用vue-property-decorator的时候，也需要再本地的项目中添加vue-class-component
+
+

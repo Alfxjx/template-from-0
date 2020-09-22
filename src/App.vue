@@ -1,25 +1,20 @@
 <template>
 	<div id="app">
-		<p class="msg">
-			{{ msg }}
-		</p>
+		<Hello :hello="msg" />
 	</div>
 </template>
 
-<script>
-export default {
-	data() {
-		return {
-			msg: "hello world",
-		};
-	},
-};
+<script lang="ts">
+import { Component, Vue } from "vue-property-decorator";
+import Hello from "./components/Hello.vue";
+
+@Component({
+	components: { Hello },
+})
+export default class App extends Vue {
+	msg = "hello world";
+}
 </script>
 
 <style lang="scss">
-#app {
-	.msg {
-		color: red;
-	}
-}
 </style>

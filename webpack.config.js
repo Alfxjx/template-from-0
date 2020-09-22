@@ -57,7 +57,7 @@ module.exports = {
 				use: ["file-loader"],
 			},
 			{
-				test: /\.(ts|js)$/,
+				test: /\.(tsx|ts|js)$/,
 				exclude: /(node_modules|bower_components)/, //排除掉node_module目录
 				use: "babel-loader",
 			},
