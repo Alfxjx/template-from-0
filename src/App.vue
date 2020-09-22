@@ -17,4 +17,9 @@ export default class App extends Vue {
 </script>
 
 <style lang="scss">
+// @import './app.scss';
+$font-big:24px;
+#app{
+	font-size: $font-big;
+}
 </style>
