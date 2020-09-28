@@ -1,4 +1,5 @@
 // 该文件其实最终是要在node环境下执行的
+// change from local
 const path = require("path");
 const webpack = require("webpack");
 const htmlWebpackPlugin = require("html-webpack-plugin");
