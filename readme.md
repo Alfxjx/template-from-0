@@ -15,4 +15,7 @@
 - 使用vue-property-decorator的时候，也需要再本地的项目中添加vue-class-component
 
 
+test rebase
+
+
 
